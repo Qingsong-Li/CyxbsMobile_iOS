@@ -51,6 +51,9 @@ typedef NS_ENUM(NSUInteger, LoginStates) {
 /// 上方发现页面
 @property (nonatomic, weak) FinderView *finderView;
 
+/// 教务在线新闻入口
+@property(nonatomic,strong) DiscoverJWZXVC *jwzxVC;
+
 /// 电费页面
 @property (nonatomic, strong) ElectricViewController *electricViewVC;
 
@@ -66,6 +69,7 @@ typedef NS_ENUM(NSUInteger, LoginStates) {
 @property (nonatomic, assign) int classTabbarHeight;
 
 @property (nonatomic, assign) int classTabbarCornerRadius;
+
 
 @end
 
@@ -83,13 +87,14 @@ typedef NS_ENUM(NSUInteger, LoginStates) {
     
     self.navigationController.navigationBar.hidden = YES;
 
-    if (self.loginStatus != AlreadyLogin) {
-        [self presentToLogin];
-        CCLog(@"needLogIn, %lud", self.loginStatus);
-    } else {
-        [self RequestCheckinInfo];
-        CCLog(@"LogIned, %lud", self.loginStatus);
-    }
+//    if (self.loginStatus != AlreadyLogin) {
+//        [self presentToLogin];
+//        CCLog(@"needLogIn, %lud", self.loginStatus);
+//    } else {
+//        [self RequestCheckinInfo];
+//        CCLog(@"LogIned, %lud", self.loginStatus);
+//    }
+
 
     self.navigationController.navigationBar.translucent = NO;
     self.classTabbarHeight = 58;
@@ -123,6 +128,7 @@ typedef NS_ENUM(NSUInteger, LoginStates) {
     [super viewDidLoad];
     [self addContentView];
     [self addFinderView];
+    [self addDiscoverJWZXVC];
     [self addButtonTargetInFinderview];
     [self addelectricViewVC];
     [self layoutSubviews];
@@ -192,8 +198,14 @@ typedef NS_ENUM(NSUInteger, LoginStates) {
         make.bottom.equalTo(self.finderView.enterButtonArray.firstObject.mas_bottom).offset(20);
     }];
     
+    [self.jwzxVC.view mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.top.mas_equalTo(self.finderView.mas_bottom);
+        make.left.right.equalTo(self.view);
+        make.height.mas_equalTo(@25);
+    }];
+    
     [self.electricViewVC.view mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.top.equalTo(self.finderView.mas_bottom);
+        make.top.equalTo(self.jwzxVC.view.mas_bottom);
         make.width.equalTo(self.contentView);
         make.height.equalTo(@152);
         make.bottom.equalTo(self.contentView).offset(-20);
@@ -286,6 +298,12 @@ typedef NS_ENUM(NSUInteger, LoginStates) {
     self.colorView.backgroundColor = self.electricViewVC.view.backgroundColor;
     [self.contentView addSubview:self.colorView];
 
+}
+
+- (void)addDiscoverJWZXVC {
+    DiscoverJWZXVC *vc = [[DiscoverJWZXVC alloc] initWithWidth:SCREEN_WIDTH];
+    self.jwzxVC = vc;
+    [self.view addSubview:self.jwzxVC.view];
 }
 
 - (void)backToThisController{

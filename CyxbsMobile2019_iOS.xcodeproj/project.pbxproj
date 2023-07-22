@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 51;
+	objectVersion = 48;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -169,7 +169,6 @@
 		1AF4B6072362EBFE00A0823A /* NSDate+Timestamp.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AF4B6062362EBFE00A0823A /* NSDate+Timestamp.m */; };
 		1AFD153223819FBD004D9CEA /* EditMyInfoTransitionAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AFD153123819FBD004D9CEA /* EditMyInfoTransitionAnimator.m */; };
 		1AFE535124F7571300F42A74 /* IntroductionController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AFE535024F7571300F42A74 /* IntroductionController.m */; };
-		422CF3805443B1407127C4C6 /* Pods_CyxbsMobile2019_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 378D8784FAA6107B09468EAA /* Pods_CyxbsMobile2019_iOS.framework */; };
 		491DAE5726E207C600693AAA /* CommonQuestionData.m in Sources */ = {isa = PBXBuildFile; fileRef = 491DAE5626E207C600693AAA /* CommonQuestionData.m */; };
 		49252DAA26D39CC9003A8A7F /* FeedBackMainPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49252DA926D39CC9003A8A7F /* FeedBackMainPageViewController.m */; };
 		492C19AE26CE458000C485D9 /* Bauhaus-93.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 492C19AD26CE458000C485D9 /* Bauhaus-93.ttf */; };
@@ -248,6 +247,7 @@
 		7F9A212726218E8800CA86B2 /* YYZTopicModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F9A212626218E8800CA86B2 /* YYZTopicModel.m */; };
 		7FBF39F4257B79F30077494E /* ByPasswordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FBF39EB257B79F20077494E /* ByPasswordViewController.m */; };
 		7FBF39F6257B79F30077494E /* ByWordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FBF39EF257B79F30077494E /* ByWordViewController.m */; };
+		982414376C2CF4558BEA6460 /* Pods_CyxbsMobile2019_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93BBDC4E20521E196399E79F /* Pods_CyxbsMobile2019_iOS.framework */; };
 		AA0DD8FB286C50E500802324 /* MineMsgCntView.m in Sources */ = {isa = PBXBuildFile; fileRef = AA0DD8FA286C50E400802324 /* MineMsgCntView.m */; };
 		AA0DDB51286C8B1900802324 /* MineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA0DDACB286C8B1900802324 /* MineViewController.m */; };
 		AA0DDB52286C8B1900802324 /* MineUserInfoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = AA0DDACD286C8B1900802324 /* MineUserInfoModel.m */; };
@@ -441,6 +441,8 @@
 		AAE3309925E4E5CD00324750 /* DeleteArticleTipView.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE3309825E4E5CD00324750 /* DeleteArticleTipView.m */; };
 		AAE87797286B304F0091656B /* PrivacyTipView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAE87796286B304E0091656B /* PrivacyTipView.swift */; };
 		AAFD87D024F50DB800CBBD11 /* FakeTabBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = AAFD87CF24F50DB800CBBD11 /* FakeTabBarView.m */; };
+		AB3FF41F2A6BADE200DD867E /* DiscoverJWZXVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB3FF41E2A6BADE200DD867E /* DiscoverJWZXVC.swift */; };
+		AB3FF4222A6BD06D00DD867E /* JWNewsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB3FF4212A6BD06D00DD867E /* JWNewsVC.swift */; };
 		B01AFD6A29EFE531004F82D7 /* ElectricityView.m in Sources */ = {isa = PBXBuildFile; fileRef = B01AFD6929EFE531004F82D7 /* ElectricityView.m */; };
 		B033366E294C971D004D141D /* HttpTool.m in Sources */ = {isa = PBXBuildFile; fileRef = B033366D294C971D004D141D /* HttpTool.m */; };
 		B0B1B9F529E69EAD00A1BB02 /* ElectricFeeItem.m in Sources */ = {isa = PBXBuildFile; fileRef = B0B1B9F129E69EAD00A1BB02 /* ElectricFeeItem.m */; };
@@ -912,7 +914,6 @@
 		1AFD153123819FBD004D9CEA /* EditMyInfoTransitionAnimator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EditMyInfoTransitionAnimator.m; sourceTree = "<group>"; };
 		1AFE534F24F7571300F42A74 /* IntroductionController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IntroductionController.h; sourceTree = "<group>"; };
 		1AFE535024F7571300F42A74 /* IntroductionController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IntroductionController.m; sourceTree = "<group>"; };
-		378D8784FAA6107B09468EAA /* Pods_CyxbsMobile2019_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CyxbsMobile2019_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		491DAE5526E207C600693AAA /* CommonQuestionData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommonQuestionData.h; sourceTree = "<group>"; };
 		491DAE5626E207C600693AAA /* CommonQuestionData.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CommonQuestionData.m; sourceTree = "<group>"; };
 		49252DA826D39CC9003A8A7F /* FeedBackMainPageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FeedBackMainPageViewController.h; sourceTree = "<group>"; };
@@ -986,7 +987,7 @@
 		647AC3092826CCB0009A2E35 /* StationData.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StationData.m; sourceTree = "<group>"; };
 		647AC30E2828012E009A2E35 /* SchoolBusMapSideBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SchoolBusMapSideBar.h; sourceTree = "<group>"; };
 		647AC30F2828012F009A2E35 /* SchoolBusMapSideBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SchoolBusMapSideBar.m; sourceTree = "<group>"; };
-		6F3D5CAF0787713C5281B516 /* Pods-CyxbsMobile2019_iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CyxbsMobile2019_iOS.debug.xcconfig"; path = "Target Support Files/Pods-CyxbsMobile2019_iOS/Pods-CyxbsMobile2019_iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		6E976EE17A95C9C10B573954 /* Pods-CyxbsMobile2019_iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CyxbsMobile2019_iOS.release.xcconfig"; path = "Target Support Files/Pods-CyxbsMobile2019_iOS/Pods-CyxbsMobile2019_iOS.release.xcconfig"; sourceTree = "<group>"; };
 		7311327326CCEC2400EF88C1 /* ExchangeCenterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExchangeCenterViewController.m; sourceTree = "<group>"; };
 		7311327626CCEC2400EF88C1 /* Balance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Balance.h; sourceTree = "<group>"; };
 		7311327726CCEC2400EF88C1 /* Goods.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Goods.m; sourceTree = "<group>"; };
@@ -1078,6 +1079,7 @@
 		7FBF39E9257B79F20077494E /* ByPasswordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ByPasswordViewController.h; sourceTree = "<group>"; };
 		7FBF39EB257B79F20077494E /* ByPasswordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ByPasswordViewController.m; sourceTree = "<group>"; };
 		7FBF39EF257B79F30077494E /* ByWordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ByWordViewController.m; sourceTree = "<group>"; };
+		93BBDC4E20521E196399E79F /* Pods_CyxbsMobile2019_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CyxbsMobile2019_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA0DD8F9286C50E400802324 /* MineMsgCntView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MineMsgCntView.h; sourceTree = "<group>"; };
 		AA0DD8FA286C50E400802324 /* MineMsgCntView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MineMsgCntView.m; sourceTree = "<group>"; };
 		AA0DDACA286C8B1900802324 /* MineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MineViewController.h; sourceTree = "<group>"; };
@@ -1469,6 +1471,8 @@
 		AAE87796286B304E0091656B /* PrivacyTipView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrivacyTipView.swift; sourceTree = "<group>"; };
 		AAFD87CE24F50DB800CBBD11 /* FakeTabBarView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FakeTabBarView.h; sourceTree = "<group>"; };
 		AAFD87CF24F50DB800CBBD11 /* FakeTabBarView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FakeTabBarView.m; sourceTree = "<group>"; };
+		AB3FF41E2A6BADE200DD867E /* DiscoverJWZXVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoverJWZXVC.swift; sourceTree = "<group>"; };
+		AB3FF4212A6BD06D00DD867E /* JWNewsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JWNewsVC.swift; sourceTree = "<group>"; };
 		B01AFD6829EFE531004F82D7 /* ElectricityView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ElectricityView.h; sourceTree = "<group>"; };
 		B01AFD6929EFE531004F82D7 /* ElectricityView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ElectricityView.m; sourceTree = "<group>"; };
 		B033366D294C971D004D141D /* HttpTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HttpTool.m; sourceTree = "<group>"; };
@@ -1565,6 +1569,7 @@
 		D0101F60243587A1004337ED /* GKPanGestureRecognizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GKPanGestureRecognizer.m; sourceTree = "<group>"; };
 		D09081D923F4571B00D5342D /* UserNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotifications.framework; path = System/Library/Frameworks/UserNotifications.framework; sourceTree = SDKROOT; };
 		D09081DB23F4573B00D5342D /* 掌上重邮.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "掌上重邮.entitlements"; sourceTree = "<group>"; };
+		D4D9D2FAFABFD5BF0C0FDD9D /* Pods-CyxbsMobile2019_iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CyxbsMobile2019_iOS.debug.xcconfig"; path = "Target Support Files/Pods-CyxbsMobile2019_iOS/Pods-CyxbsMobile2019_iOS.debug.xcconfig"; sourceTree = "<group>"; };
 		DB34EA2A239BD4540052B65E /* WYCClassBookViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYCClassBookViewController.h; sourceTree = "<group>"; };
 		DB34EA2B239BD4540052B65E /* WYCClassBookViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYCClassBookViewController.m; sourceTree = "<group>"; };
 		DB34EA2D239BD4540052B65E /* DateModle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DateModle.m; sourceTree = "<group>"; };
@@ -1665,7 +1670,6 @@
 		EE131C1F2471362E00B6ED97 /* URLController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = URLController.h; sourceTree = "<group>"; };
 		EE131C202471362E00B6ED97 /* URLController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = URLController.m; sourceTree = "<group>"; };
 		EE899DDE2367D89900DDB0D9 /* Bahnschrift.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Bahnschrift.ttf; sourceTree = "<group>"; };
-		F1ED110FF9C783A1A3234FBE /* Pods-CyxbsMobile2019_iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CyxbsMobile2019_iOS.release.xcconfig"; path = "Target Support Files/Pods-CyxbsMobile2019_iOS/Pods-CyxbsMobile2019_iOS.release.xcconfig"; sourceTree = "<group>"; };
 		FE0D60392801702B00319A9E /* SchoolBusData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SchoolBusData.h; sourceTree = "<group>"; };
 		FE0D603A2801702B00319A9E /* SchoolBusData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SchoolBusData.m; sourceTree = "<group>"; };
 		FE0D603C2801702B00319A9E /* SchoolBusVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SchoolBusVC.m; sourceTree = "<group>"; };
@@ -1738,7 +1742,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D09081DA23F4571B00D5342D /* UserNotifications.framework in Frameworks */,
-				422CF3805443B1407127C4C6 /* Pods_CyxbsMobile2019_iOS.framework in Frameworks */,
+				982414376C2CF4558BEA6460 /* Pods_CyxbsMobile2019_iOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2655,6 +2659,7 @@
 				B0B1B9DB29E69E7B00A1BB02 /* Discover_Electric */,
 				1404747F27F47F2A00307209 /* Discover_AD */,
 				14B73F29281BED7B00D08ADD /* Discover_MineMessage */,
+				AB3FF41C2A6BAD8D00DD867E /* Discover_JWZX */,
 			);
 			path = Discover_MainPage;
 			sourceTree = "<group>";
@@ -3198,7 +3203,7 @@
 			isa = PBXGroup;
 			children = (
 				D09081D923F4571B00D5342D /* UserNotifications.framework */,
-				378D8784FAA6107B09468EAA /* Pods_CyxbsMobile2019_iOS.framework */,
+				93BBDC4E20521E196399E79F /* Pods_CyxbsMobile2019_iOS.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -3206,8 +3211,8 @@
 		31CAD973D4E3B19C047677AE /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				6F3D5CAF0787713C5281B516 /* Pods-CyxbsMobile2019_iOS.debug.xcconfig */,
-				F1ED110FF9C783A1A3234FBE /* Pods-CyxbsMobile2019_iOS.release.xcconfig */,
+				D4D9D2FAFABFD5BF0C0FDD9D /* Pods-CyxbsMobile2019_iOS.debug.xcconfig */,
+				6E976EE17A95C9C10B573954 /* Pods-CyxbsMobile2019_iOS.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -4896,6 +4901,31 @@
 			path = ArticleRemarkPraise;
 			sourceTree = "<group>";
 		};
+		AB3FF41C2A6BAD8D00DD867E /* Discover_JWZX */ = {
+			isa = PBXGroup;
+			children = (
+				AB3FF41D2A6BADC300DD867E /* DIscoverJWZX_module */,
+				AB3FF4202A6BD04500DD867E /* JWNews_module */,
+			);
+			path = Discover_JWZX;
+			sourceTree = "<group>";
+		};
+		AB3FF41D2A6BADC300DD867E /* DIscoverJWZX_module */ = {
+			isa = PBXGroup;
+			children = (
+				AB3FF41E2A6BADE200DD867E /* DiscoverJWZXVC.swift */,
+			);
+			path = DIscoverJWZX_module;
+			sourceTree = "<group>";
+		};
+		AB3FF4202A6BD04500DD867E /* JWNews_module */ = {
+			isa = PBXGroup;
+			children = (
+				AB3FF4212A6BD06D00DD867E /* JWNewsVC.swift */,
+			);
+			path = JWNews_module;
+			sourceTree = "<group>";
+		};
 		B0B1B9DB29E69E7B00A1BB02 /* Discover_Electric */ = {
 			isa = PBXGroup;
 			children = (
@@ -5698,13 +5728,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1A9B7693235F50A900725937 /* Build configuration list for PBXNativeTarget "CyxbsMobile2019_iOS" */;
 			buildPhases = (
-				B21145A9612AA583864D1A02 /* [CP] Check Pods Manifest.lock */,
+				E5A06FFF70DF95E4114CFD30 /* [CP] Check Pods Manifest.lock */,
 				1A9B7663235F50A600725937 /* Sources */,
 				1A9B7664235F50A600725937 /* Frameworks */,
 				1A9B7665235F50A600725937 /* Resources */,
-				81DCEEACD5150216D20A1471 /* [CP] Copy Pods Resources */,
-				5069A10D9BED088AE88BB0DB /* [CP] Embed Pods Frameworks */,
 				FE32057327EC902D003D4479 /* ShellScript */,
+				616F1983B6398F97AF665E02 /* [CP] Embed Pods Frameworks */,
+				35818199ABCEA8BFE59436BD /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -5766,6 +5796,7 @@
 					1A9B7666235F50A600725937 = {
 						CreatedOnToolsVersion = 10.3;
 						LastSwiftMigration = 1200;
+						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
 							com.apple.BackgroundModes = {
 								enabled = 1;
@@ -5778,16 +5809,18 @@
 					1A9B767E235F50A900725937 = {
 						CreatedOnToolsVersion = 10.3;
 						LastSwiftMigration = 1250;
+						ProvisioningStyle = Automatic;
 						TestTargetID = 1A9B7666235F50A600725937;
 					};
 					1A9B7689235F50A900725937 = {
 						CreatedOnToolsVersion = 10.3;
+						ProvisioningStyle = Automatic;
 						TestTargetID = 1A9B7666235F50A600725937;
 					};
 				};
 			};
 			buildConfigurationList = 1A9B7662235F50A600725937 /* Build configuration list for PBXProject "CyxbsMobile2019_iOS" */;
-			compatibilityVersion = "Xcode 9.3";
+			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -5850,41 +5883,97 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		5069A10D9BED088AE88BB0DB /* [CP] Embed Pods Frameworks */ = {
+		35818199ABCEA8BFE59436BD /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-CyxbsMobile2019_iOS/Pods-CyxbsMobile2019_iOS-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-CyxbsMobile2019_iOS/Pods-CyxbsMobile2019_iOS-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CyxbsMobile2019_iOS/Pods-CyxbsMobile2019_iOS-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		81DCEEACD5150216D20A1471 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-CyxbsMobile2019_iOS/Pods-CyxbsMobile2019_iOS-resources-${CONFIGURATION}-input-files.xcfilelist",
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CyxbsMobile2019_iOS/Pods-CyxbsMobile2019_iOS-resources.sh",
+				"${PODS_ROOT}/AMap3DMap-NO-IDFA/MAMapKit.framework/AMap.bundle",
+				"${PODS_ROOT}/UMCCommonLog/UMCommonLog/UMCommonLog.bundle",
+				"${PODS_ROOT}/UMCShare/UMShare/UMSocialUI/UMSocialSDKResources.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-CyxbsMobile2019_iOS/Pods-CyxbsMobile2019_iOS-resources-${CONFIGURATION}-output-files.xcfilelist",
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AMap.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/UMCommonLog.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/UMSocialSDKResources.bundle",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CyxbsMobile2019_iOS/Pods-CyxbsMobile2019_iOS-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		B21145A9612AA583864D1A02 /* [CP] Check Pods Manifest.lock */ = {
+		616F1983B6398F97AF665E02 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CyxbsMobile2019_iOS/Pods-CyxbsMobile2019_iOS-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/FMDB/FMDB.framework",
+				"${BUILT_PRODUCTS_DIR}/FluentDarkModeKit/FluentDarkModeKit.framework",
+				"${BUILT_PRODUCTS_DIR}/IGListDiffKit/IGListDiffKit.framework",
+				"${BUILT_PRODUCTS_DIR}/IGListKit/IGListKit.framework",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManager/IQKeyboardManager.framework",
+				"${BUILT_PRODUCTS_DIR}/LookinServer/LookinServer.framework",
+				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/MJExtension/MJExtension.framework",
+				"${BUILT_PRODUCTS_DIR}/MJRefresh/MJRefresh.framework",
+				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
+				"${BUILT_PRODUCTS_DIR}/NudeIn/NudeIn.framework",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxRelay/RxRelay.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SDCycleScrollView/SDCycleScrollView.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/TZImagePickerController/TZImagePickerController.framework",
+				"${BUILT_PRODUCTS_DIR}/WCDB/WCDB.framework",
+				"${BUILT_PRODUCTS_DIR}/WCDBOptimizedSQLCipher/sqlcipher.framework",
+				"${BUILT_PRODUCTS_DIR}/YBImageBrowser/YBImageBrowser.framework",
+				"${BUILT_PRODUCTS_DIR}/YYImage/YYImage.framework",
+				"${BUILT_PRODUCTS_DIR}/YYKit/YYKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FMDB.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FluentDarkModeKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IGListDiffKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IGListKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManager.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LookinServer.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJExtension.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJRefresh.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NudeIn.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxRelay.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDCycleScrollView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TZImagePickerController.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/WCDB.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/sqlcipher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YBImageBrowser.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YYImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YYKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CyxbsMobile2019_iOS/Pods-CyxbsMobile2019_iOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E5A06FFF70DF95E4114CFD30 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -6098,6 +6187,7 @@
 				18CDF4B7257F8DBD006E8E5C /* SetQuestionViewController.m in Sources */,
 				B51C501728A5FFCE0011465E /* LoginBaseView.m in Sources */,
 				FE2C135127AEF629001CF7AF /* ToDoEmptyCell.m in Sources */,
+				AB3FF4222A6BD06D00DD867E /* JWNewsVC.swift in Sources */,
 				4931630B26CD7B6800140412 /* GoodsCollectionViewCell.m in Sources */,
 				DB4065032466D889006CE5BC /* DLReminderView.m in Sources */,
 				DB4064F72466D889006CE5BC /* DLReminderSetDetailVC.m in Sources */,
@@ -6335,6 +6425,7 @@
 				73AAA1D126C918250084E44D /* DetailsTasksTableView.m in Sources */,
 				14CED37D288A594600BADA8B /* RisingRouter.m in Sources */,
 				AAC7CA1125F7753E00E6B5D5 /* PraiseModel.m in Sources */,
+				AB3FF41F2A6BADE200DD867E /* DiscoverJWZXVC.swift in Sources */,
 				AA7ABAB22873EA5500BA6790 /* TopFollowView.m in Sources */,
 				AAE3304D25E2A1C600324750 /* RemarkViewController.m in Sources */,
 				B0B1BA0A29E6E98000A1BB02 /* PickerDormitoryViewController.m in Sources */,
@@ -6638,7 +6729,7 @@
 		};
 		1A9B7694235F50A900725937 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6F3D5CAF0787713C5281B516 /* Pods-CyxbsMobile2019_iOS.debug.xcconfig */;
+			baseConfigurationReference = D4D9D2FAFABFD5BF0C0FDD9D /* Pods-CyxbsMobile2019_iOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -6678,10 +6769,7 @@
 				);
 				INFOPLIST_FILE = CyxbsMobile2019_iOS/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MARKETING_VERSION = 6.4.4;
 				PRODUCT_BUNDLE_IDENTIFIER = com.mredrock.cyxbs;
 				PRODUCT_NAME = "掌上重邮";
@@ -6698,7 +6786,7 @@
 		};
 		1A9B7695235F50A900725937 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F1ED110FF9C783A1A3234FBE /* Pods-CyxbsMobile2019_iOS.release.xcconfig */;
+			baseConfigurationReference = 6E976EE17A95C9C10B573954 /* Pods-CyxbsMobile2019_iOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -6737,10 +6825,7 @@
 				);
 				INFOPLIST_FILE = CyxbsMobile2019_iOS/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MARKETING_VERSION = 6.4.4;
 				PRODUCT_BUNDLE_IDENTIFIER = com.mredrock.cyxbs;
 				PRODUCT_NAME = "掌上重邮";
@@ -6764,11 +6849,7 @@
 				DEVELOPMENT_TEAM = D67VC378K4;
 				INFOPLIST_FILE = CyxbsMobile2019_iOSTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.mredrock.cyxbs.CyxbsMobile2019-iOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "CyxbsMobile2019_iOS/Swift/CyxbsMobile2019_iOSTests-Bridging-Header.h";
@@ -6789,11 +6870,7 @@
 				DEVELOPMENT_TEAM = D67VC378K4;
 				INFOPLIST_FILE = CyxbsMobile2019_iOSTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.mredrock.cyxbs.CyxbsMobile2019-iOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "CyxbsMobile2019_iOS/Swift/CyxbsMobile2019_iOSTests-Bridging-Header.h";
@@ -6810,11 +6887,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = D67VC378K4;
 				INFOPLIST_FILE = CyxbsMobile2019_iOSUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.mredrock.cyxbs.CyxbsMobile2019-iOSUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -6829,11 +6902,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = D67VC378K4;
 				INFOPLIST_FILE = CyxbsMobile2019_iOSUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.mredrock.cyxbs.CyxbsMobile2019-iOSUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
