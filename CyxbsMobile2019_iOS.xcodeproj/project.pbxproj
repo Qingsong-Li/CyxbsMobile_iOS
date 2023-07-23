@@ -443,6 +443,12 @@
 		AAFD87D024F50DB800CBBD11 /* FakeTabBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = AAFD87CF24F50DB800CBBD11 /* FakeTabBarView.m */; };
 		AB3FF41F2A6BADE200DD867E /* DiscoverJWZXVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB3FF41E2A6BADE200DD867E /* DiscoverJWZXVC.swift */; };
 		AB3FF4222A6BD06D00DD867E /* JWNewsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB3FF4212A6BD06D00DD867E /* JWNewsVC.swift */; };
+		AB3FF4272A6BE34F00DD867E /* JWNewsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB3FF4262A6BE34F00DD867E /* JWNewsCell.swift */; };
+		AB3FF4292A6C099A00DD867E /* JWZXNewsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB3FF4282A6C099A00DD867E /* JWZXNewsModel.swift */; };
+		AB3FF42B2A6C09B700DD867E /* JWZXSectionNews.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB3FF42A2A6C09B700DD867E /* JWZXSectionNews.swift */; };
+		AB3FF42D2A6C09CF00DD867E /* JWZXNewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB3FF42C2A6C09CF00DD867E /* JWZXNewModel.swift */; };
+		AB3FF4312A6CCA7700DD867E /* LQSTextCycleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB3FF4302A6CCA7700DD867E /* LQSTextCycleView.swift */; };
+		AB3FF4332A6CD2BE00DD867E /* JWZXNewsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB3FF4322A6CD2BE00DD867E /* JWZXNewsCollectionViewCell.swift */; };
 		B01AFD6A29EFE531004F82D7 /* ElectricityView.m in Sources */ = {isa = PBXBuildFile; fileRef = B01AFD6929EFE531004F82D7 /* ElectricityView.m */; };
 		B033366E294C971D004D141D /* HttpTool.m in Sources */ = {isa = PBXBuildFile; fileRef = B033366D294C971D004D141D /* HttpTool.m */; };
 		B0B1B9F529E69EAD00A1BB02 /* ElectricFeeItem.m in Sources */ = {isa = PBXBuildFile; fileRef = B0B1B9F129E69EAD00A1BB02 /* ElectricFeeItem.m */; };
@@ -1473,6 +1479,12 @@
 		AAFD87CF24F50DB800CBBD11 /* FakeTabBarView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FakeTabBarView.m; sourceTree = "<group>"; };
 		AB3FF41E2A6BADE200DD867E /* DiscoverJWZXVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoverJWZXVC.swift; sourceTree = "<group>"; };
 		AB3FF4212A6BD06D00DD867E /* JWNewsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JWNewsVC.swift; sourceTree = "<group>"; };
+		AB3FF4262A6BE34F00DD867E /* JWNewsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JWNewsCell.swift; sourceTree = "<group>"; };
+		AB3FF4282A6C099A00DD867E /* JWZXNewsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JWZXNewsModel.swift; sourceTree = "<group>"; };
+		AB3FF42A2A6C09B700DD867E /* JWZXSectionNews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JWZXSectionNews.swift; sourceTree = "<group>"; };
+		AB3FF42C2A6C09CF00DD867E /* JWZXNewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JWZXNewModel.swift; sourceTree = "<group>"; };
+		AB3FF4302A6CCA7700DD867E /* LQSTextCycleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LQSTextCycleView.swift; sourceTree = "<group>"; };
+		AB3FF4322A6CD2BE00DD867E /* JWZXNewsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JWZXNewsCollectionViewCell.swift; sourceTree = "<group>"; };
 		B01AFD6829EFE531004F82D7 /* ElectricityView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ElectricityView.h; sourceTree = "<group>"; };
 		B01AFD6929EFE531004F82D7 /* ElectricityView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ElectricityView.m; sourceTree = "<group>"; };
 		B033366D294C971D004D141D /* HttpTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HttpTool.m; sourceTree = "<group>"; };
@@ -4913,7 +4925,8 @@
 		AB3FF41D2A6BADC300DD867E /* DIscoverJWZX_module */ = {
 			isa = PBXGroup;
 			children = (
-				AB3FF41E2A6BADE200DD867E /* DiscoverJWZXVC.swift */,
+				AB3FF42F2A6CCA3F00DD867E /* View */,
+				AB3FF42E2A6CCA2F00DD867E /* VC */,
 			);
 			path = DIscoverJWZX_module;
 			sourceTree = "<group>";
@@ -4921,9 +4934,54 @@
 		AB3FF4202A6BD04500DD867E /* JWNews_module */ = {
 			isa = PBXGroup;
 			children = (
-				AB3FF4212A6BD06D00DD867E /* JWNewsVC.swift */,
+				AB3FF4232A6BE20400DD867E /* VC */,
+				AB3FF4242A6BE21700DD867E /* View */,
+				AB3FF4252A6BE22500DD867E /* Model */,
 			);
 			path = JWNews_module;
+			sourceTree = "<group>";
+		};
+		AB3FF4232A6BE20400DD867E /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				AB3FF4212A6BD06D00DD867E /* JWNewsVC.swift */,
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+		AB3FF4242A6BE21700DD867E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AB3FF4262A6BE34F00DD867E /* JWNewsCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		AB3FF4252A6BE22500DD867E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AB3FF4282A6C099A00DD867E /* JWZXNewsModel.swift */,
+				AB3FF42A2A6C09B700DD867E /* JWZXSectionNews.swift */,
+				AB3FF42C2A6C09CF00DD867E /* JWZXNewModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		AB3FF42E2A6CCA2F00DD867E /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				AB3FF41E2A6BADE200DD867E /* DiscoverJWZXVC.swift */,
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+		AB3FF42F2A6CCA3F00DD867E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AB3FF4302A6CCA7700DD867E /* LQSTextCycleView.swift */,
+				AB3FF4322A6CD2BE00DD867E /* JWZXNewsCollectionViewCell.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		B0B1B9DB29E69E7B00A1BB02 /* Discover_Electric */ = {
@@ -6203,6 +6261,7 @@
 				AA7ABAB42873EA5500BA6790 /* GroupBtn.m in Sources */,
 				AA7ABAF32873EA6D00BA6790 /* DynamicDetailMainVC.m in Sources */,
 				AAC7CA0B25F7725200E6B5D5 /* MainPage2RequestModel.m in Sources */,
+				AB3FF4332A6CD2BE00DD867E /* JWZXNewsCollectionViewCell.swift in Sources */,
 				DB34EB30239BD4550052B65E /* LessonMatter.m in Sources */,
 				18CDF67D257F91BD006E8E5C /* PeopleListCellTableViewCell.m in Sources */,
 				AA4CD60A25EF6747002D9394 /* IgnoreDataModel.m in Sources */,
@@ -6290,6 +6349,7 @@
 				646B198D282FFC460015DF28 /* BusMAPointAnnotation.m in Sources */,
 				AAC7CA2025F7797000E6B5D5 /* RemarkParseModel.m in Sources */,
 				AA7ABAA92873EA5500BA6790 /* ShareView.m in Sources */,
+				AB3FF4292A6C099A00DD867E /* JWZXNewsModel.swift in Sources */,
 				493162DE26CD7B6300140412 /* StampTaskData.m in Sources */,
 				7FBF39F4257B79F30077494E /* ByPasswordViewController.m in Sources */,
 				DB4065022466D889006CE5BC /* DLReminderView+Reset.m in Sources */,
@@ -6305,6 +6365,7 @@
 				AA7AB95A2873E5EA00BA6790 /* SZHSearchDataModel.m in Sources */,
 				1AF4B6072362EBFE00A0823A /* NSDate+Timestamp.m in Sources */,
 				18CDF4C0257F8DBD006E8E5C /* sendCodeModel.m in Sources */,
+				AB3FF4272A6BE34F00DD867E /* JWNewsCell.swift in Sources */,
 				147842F227F080A7002359BA /* NSDate+Day.m in Sources */,
 				D0101F68243587A1004337ED /* UIImage+GKDecoder.m in Sources */,
 				FE2C136127AEF629001CF7AF /* DiscoverTodoSetRemindBasicView.m in Sources */,
@@ -6420,6 +6481,7 @@
 				DB34EB22239BD4550052B65E /* AddRemindViewController.m in Sources */,
 				DB4064FD2466D889006CE5BC /* DLReminderSetTimeVC.m in Sources */,
 				AA0DDB6B286C8B1A00802324 /* EditMyInfoPresenter.m in Sources */,
+				AB3FF42B2A6C09B700DD867E /* JWZXSectionNews.swift in Sources */,
 				AA0DDB7D286C8B1A00802324 /* PMPAvatarImgView.m in Sources */,
 				735BC52A26D387C200F22678 /* HistoricalFeedBackViewController.m in Sources */,
 				73AAA1D126C918250084E44D /* DetailsTasksTableView.m in Sources */,
@@ -6496,6 +6558,7 @@
 				AA7AB96E2873E5EA00BA6790 /* SZHArchiveTool.m in Sources */,
 				B0F08FF828A24F9000986EB6 /* IDSController.m in Sources */,
 				18CDF69B257F91BD006E8E5C /* CQUPTMapMyStarButton.m in Sources */,
+				AB3FF4312A6CCA7700DD867E /* LQSTextCycleView.swift in Sources */,
 				1A14136C235F524B0001417E /* UIViewController+BackButtonHandler.m in Sources */,
 				14B73F7A281BED7B00D08ADD /* MessageMoreCell.m in Sources */,
 				18CDF69D257F91BD006E8E5C /* CQUPTMapSearchResultCell.m in Sources */,
@@ -6561,6 +6624,7 @@
 				7311328726CCEC2400EF88C1 /* Balance.m in Sources */,
 				18CDF4C3257F8DBD006E8E5C /* questionAndEmail.m in Sources */,
 				738C15CA26E2176700E24F8C /* ImgViewCollectionViewCell.m in Sources */,
+				AB3FF42D2A6C09CF00DD867E /* JWZXNewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
