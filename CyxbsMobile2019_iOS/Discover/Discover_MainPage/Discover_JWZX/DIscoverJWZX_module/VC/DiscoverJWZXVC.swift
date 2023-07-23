@@ -13,7 +13,7 @@ import Masonry
 @objcMembers
 class DiscoverJWZXVC: UIViewController,UICollectionViewDelegate,UICollectionViewDataSource {
     let collectinViewCellID = "collectionViewCell"
-    var data = ["1111111","2222222","333333"]
+    var data = ["1111111","2222222","3333333","1111111"]
     var width : CGFloat?
     var timer: Timer?
     private lazy var jwNewsBtn: UIButton = {
@@ -63,9 +63,6 @@ class DiscoverJWZXVC: UIViewController,UICollectionViewDelegate,UICollectionView
         
     }
     
-    func numberOfSections(in collectionView: UICollectionView) -> Int {
-        return 2
-    }
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         return self.data.count
     }
@@ -88,19 +85,12 @@ class DiscoverJWZXVC: UIViewController,UICollectionViewDelegate,UICollectionView
         // 1、当前正在展示的位置
         let currentIndexPath = textCycleLab.indexPathsForVisibleItems.last ?? IndexPath(row: 0, section: 0)
         var nextItem = currentIndexPath.item + 1
-        var nextSection = currentIndexPath.section
-        
-        //如果已经是第二个section的第一个，在正常展示的滚动到第二个之前先无动画滚回第一个section第一个
-        if currentIndexPath.section == 1 {
-            textCycleLab.scrollToItem(at: IndexPath(item: currentIndexPath.item, section: 0), at: .bottom, animated: false)
-            nextSection -= 1
+        //2、如果当前展示的是放在最后一个用于实现循环的第一条新闻，则无动画滚回第一条新闻，并把nextItem设置为1
+        if currentIndexPath.item == self.data.count-1 {
+            textCycleLab.scrollToItem(at: IndexPath(item: 0, section: 0), at: .bottom, animated: false)
+            nextItem = 1;
         }
-        //当达到第一个section最后一个后，下一次滚动到第二个section第一个
-        if nextItem == self.data.count {
-            nextItem = 0
-            nextSection += 1
-        }
-        let nextIndexPath = IndexPath(item: nextItem, section: nextSection)
+        let nextIndexPath = IndexPath(item: nextItem, section: 0)
             
         // 3、通过动画滚动到下一个位置
         textCycleLab.scrollToItem(at: nextIndexPath, at: .centeredVertically, animated: true)
